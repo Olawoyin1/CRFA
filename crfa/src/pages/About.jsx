@@ -106,6 +106,58 @@ const About = () => {
           </section>
         </div>
       </div>
+
+
+      <div className="officers pb-5">
+        <div className="container2">
+          <h3 className="fw-bold text-center">Club Officers</h3>
+          <div className="row row-cols-1 row-cols-sm-2 g-3 my-3 row-cols-md-3">
+            <div className="col">
+              <div>
+                <div className="card card-2 shadow">
+                  <div className="player_image">
+                    <img src="../Images/unknown.png" alt="" />
+                  </div>
+                  <div className="player_name p-3">
+                    <h6 className="fw-bold player_number">Team Captain</h6>
+                    <h6 className="fw-bold text-uppercase">Oniade Joshua</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div>
+                <div className="card card-2 shadow">
+                  <div className="player_image">
+                    <img src="../Images/unknown.png" alt="" />
+                  </div>
+                  <div className="player_name p-3">
+                    <h6 className="fw-bold player_number">
+                      Team Assistant Captain
+                    </h6>
+                    <h6 className="fw-bold text-uppercase">Surname Loba</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div>
+                <div className="card card-2 shadow">
+                  <div className="player_image">
+                    <img src="../Images/carlessi2.png" alt="" />
+                  </div>
+                  <div className="player_name p-3">
+                    <h6 className="fw-bold player_number">Other</h6>
+                    <h6 className="fw-bold text-uppercase">Lana Caleb</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
