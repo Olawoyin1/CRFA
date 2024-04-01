@@ -35,7 +35,6 @@ const About = () => {
         </div>
       </div>
 
-
       <div className="history py-5">
         <div className="container">
           <h3 className="fw-bold text-center">Our History</h3>
@@ -107,7 +106,6 @@ const About = () => {
         </div>
       </div>
 
-
       <div className="officers pb-5">
         <div className="container2">
           <h3 className="fw-bold text-center">Club Officers</h3>
@@ -151,6 +149,72 @@ const About = () => {
                   <div className="player_name p-3">
                     <h6 className="fw-bold player_number">Other</h6>
                     <h6 className="fw-bold text-uppercase">Lana Caleb</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="honors py-5">
+        <div className="container">
+          <h3 className="fw-bold text-center">Honors</h3>
+          <p className="text-center">
+            The excellence of our services has been proved by the following
+            awards:
+          </p>
+          <div className="our_honors py-3">
+            <div className="row row-cols-1 row-cols-sm-2 g-3 row-cols-md-3 row-cols-lg-4">
+              <div className="col">
+                <div>
+                  <div className="card-2 card-3 d-flex align-items-center justify-content-center flex-column p-2">
+                    <div className="honor-image d-flex align-items-center justify-content-center">
+                      <img src="../Images/marathon.png" alt="" />
+                    </div>
+                    <div className="p-3">
+                      <small className="fw-bold">Marathon Cup Runners up</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col">
+                <div>
+                  <div className="card-2 card-3 d-flex align-items-center justify-content-center flex-column p-2 ">
+                    <div className="honor-image d-flex align-items-center justify-content-center">
+                      <img src="../Images/dino.png" alt="" />
+                    </div>
+                    <div className="p-3">
+                      <small className="fw-bold">Dino Unity</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col">
+                <div>
+                  <div className="card-2 card-3 d-flex align-items-center justify-content-center flex-column p-2 ">
+                    <div className="honor-image d-flex align-items-center justify-content-center">
+                      <img src="../Images/marathon.png" alt="" />
+                    </div>
+                    <div className="p-3">
+                      <small className="fw-bold">Marathon Cup Runners up</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col">
+                <div>
+                  <div className="card-2 card-3 d-flex align-items-center justify-content-center flex-column p-2 ">
+                    <div className="honor-image d-flex align-items-center justify-content-center">
+                      <img src="../Images/isl.png" alt="" />
+                    </div>
+                    <div className="p-3">
+                      <small className="fw-bold">Isco Sport League</small>
+                    </div>
                   </div>
                 </div>
               </div>
