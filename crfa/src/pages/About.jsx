@@ -1,8 +1,9 @@
 import React from "react";
 
 const About = () => {
-  return <div className="my-4">
-    <div className="container">
+  return (
+    <div className="my-4">
+      <div className="container">
         <div className="row">
           <div className="col-md-6">
             <div className="about_image">
@@ -33,7 +34,80 @@ const About = () => {
           </div>
         </div>
       </div>
-  </div>;
+
+
+      <div className="history py-5">
+        <div className="container">
+          <h3 className="fw-bold text-center">Our History</h3>
+
+          <section class="timeline-section">
+            <div class="timeline-items">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2015</div>
+                <div class="timeline-content">
+                  <h3>Kickoff</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.{" "}
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2016</div>
+                <div class="timeline-content">
+                  <h3>Unforgetable Games</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.{" "}
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2017</div>
+                <div class="timeline-content">
+                  <h3>Constant Improvement</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.{" "}
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2018</div>
+                <div class="timeline-content">
+                  <h3>Now</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.{" "}
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2019</div>
+                <div class="timeline-content">
+                  <h3>Best Moment</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.{" "}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default About;
