@@ -133,6 +133,7 @@ img {
   overflow: hidden !important;
   position: relative;
   z-index: -1;
+  /* display: ; */
 }
 
 .player_dp::after {
@@ -426,5 +427,13 @@ img {
   }
   .timeline-dot {
     left: 0;
+  }
+}
+
+@media (max-width: 867px) {
+  .player_photo {
+    position: absolute;
+    width: 300px;
+    max-width: 100%;
   }
 }

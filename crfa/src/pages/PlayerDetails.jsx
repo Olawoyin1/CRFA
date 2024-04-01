@@ -45,7 +45,7 @@ const PlayerDetails = () => {
 
       <div class="bio">
         <div class="container2">
-          <div class="d-flex gap-5 my-4 py-3">
+          <div class="row my-4 py-3">
             <div class="col-md-7">
               <h3 class="fw-bold my-3 text-primary">BIO</h3>
 
