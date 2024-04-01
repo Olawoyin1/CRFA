@@ -1,8 +1,16 @@
 import { Link } from "react-router-dom";
 import { CiLocationOn } from "react-icons/ci";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-cards";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+// import './styles.css';
 
+// import required modules
+import { EffectCards } from "swiper/modules";
 
+import Gallery from "../Data/Gallery";
 
 const Home = () => {
   return (
@@ -24,7 +32,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
 
       <div className="about_us py-5">
         <div className="container">
@@ -62,7 +69,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
 
       <div className="training">
         <div className="container">
@@ -120,6 +126,32 @@ const Home = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="gallery py-5">
+        <div className="container">
+          <h3 className="fw-bold text-center mb-4">Team Gallery</h3>
+          <p className="lead text-muted mb-5 text-center">
+            Welcome to our football team gallery! Here, we train hard and play
+            even harder. Together, we're a formidable force on the pitch, driven
+            by passion and teamwork. Join us as we strive for success and create
+            unforgettable moments both on and off the field.
+          </p>
+          <Swiper
+            effect={"cards"}
+            grabCursor={true}
+            modules={[EffectCards]}
+            className="mySwiper"
+          >
+            {Gallery.map((item) => {
+              return (
+                <SwiperSlide>
+                  <img className="slider-img" src={`../${item}`} alt="" />
+                </SwiperSlide>
+              );
+            })}
+          </Swiper>
         </div>
       </div>
     </>
