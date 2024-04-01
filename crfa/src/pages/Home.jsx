@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { CiLocationOn } from "react-icons/ci";
 
 
 
@@ -56,6 +57,66 @@ const Home = () => {
                 <Link className="button" to="about">
                   More about us
                 </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="training">
+        <div className="container">
+          <h3 className="fw-bold py-3 text-center">Training Schedule</h3>
+
+          <div className="row row-cols-1 row-cols-sm-2 g-3 row-cols-md-3">
+            <div className="col">
+              <div>
+                <div className="card-2 card-3 d-flex align-items-center justify-content-center flex-column p-3">
+                  <h6 className="fw-bold">Mondays</h6>
+                  {/* <TbPlayFootball size={25} className="mb-2 icon" /> */}
+                  <p>Fitness & Conditioning exercises</p>
+                  <div className="m-0 p-0 d-flex w-100 align-items-center justify-content-between">
+                    <div className="d-flex align-items-center gap-1">
+                      <CiLocationOn />
+                      <p className="m-0 p-0">OAU staff school pitch</p>
+                    </div>
+                    <p className="m-0 p-0">4:00pm</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div>
+                <div className="card-2 card-3 d-flex align-items-center justify-content-center flex-column p-3">
+                  <h6 className="fw-bold">Wednessdays</h6>
+                  {/* <TbPlayFootball className="mb-2 icon" /> */}
+                  <p>Technical Drills</p>
+                  <div className="m-0 p-0 d-flex w-100 align-items-center justify-content-between">
+                    <div className="d-flex align-items-center gap-1">
+                      <CiLocationOn />
+                      <p className="m-0 p-0">OAU staff school pitch</p>
+                    </div>
+                    <p className="m-0 p-0">4:00pm</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div>
+                <div className="card-2 card-3 d-flex align-items-center justify-content-center flex-column p-3">
+                  <h6 className="fw-bold">Fridays</h6>
+                  {/* <TbPlayFootball className="mb-2 icon" /> */}
+                  <p>Full sided games</p>
+                  <div className="m-0 p-0 d-flex w-100 align-items-center justify-content-between">
+                    <div className="d-flex align-items-center gap-1">
+                      <CiLocationOn />
+                      <p className="m-0 p-0">OAU staff school pitch</p>
+                    </div>
+                    <p className="m-0 p-0">4:00pm</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
