@@ -52,81 +52,6 @@ img {
   color: #2f363e;
 }
 
-.hero {
-  /* border: 2px solid red; */
-  /* background-image: url("../public/Images/hero.jpg"); */
-  background-image: linear-gradient(to top, #0f8edd 0%, #668496 100%);
-  background-position: center;
-  background-size: cover;
-  /* background-color: rgba(0, 0, 0, 0.2); */
-  background-repeat: no-repeat;
-  background-blend-mode: multiply;
-  max-width: 100%;
-}
-
-.hero p {
-  width: 500px;
-  max-width: 100%;
-}
-
-.hero-content {
-  min-height: 400px;
-  display: flex;
-  flex-direction: column;
-  min-height: 500px;
-  /* align-items: center; */
-  justify-content: center;
-  /* border: 1px solid red; */
-  width: fit-content;
-  max-width: 100%;
-  /* height: 100%; */
-}
-
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper {
-  width: 380px;
-  height: 430px;
-  max-width: 100% !important;
-}
-
-.swiper-slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 18px;
-  font-size: 22px;
-  font-weight: bold;
-  color: #fff;
-}
-
-.swiper-slide {
-  background-image: linear-gradient(to top, #0f8edd 0%, #668496 100%);
-  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
-  /* padding: 0.4rem 0; */
-}
-
-.swiper-slide .slideer-img {
-  display: block !important;
-  width: 100% !important;
-  height: 100% !important;
-  max-width: 100%;
-  object-fit: contain;
-  border-radius: 1rem;
-}
-
 .lead {
   font-size: 16px !important;
 }
@@ -273,6 +198,37 @@ img {
   z-index: -1;
 }
 
+.main_dp {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player_bio {
+  width: 500px;
+  max-width: 100%;
+}
+
+.player_bio p {
+  /* -webkit-font-smoothing: antialiased;
+   */
+  font-size: 14px;
+}
+
+.ans {
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 0.33px;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(0, 24, 56);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Alfa Slab One", serif;
+  box-sizing: border-box;
+}
+
 .timeline-section {
   /* background-color: #24292d; */
   min-height: 100vh;
@@ -345,12 +301,115 @@ img {
   line-height: 22px;
 }
 
+.honor-image {
+  width: 200px;
+  height: 200px;
+  /* background-color: red; */
+  object-fit: contain;
+  overflow: hidden;
+}
 
+.honor-image img {
+  width: 110px;
+}
 
+.others {
+  background-color: #f2f2f2;
+}
 
+.dash {
+  position: relative;
+}
 
+.dash::after {
+  position: absolute;
+  content: "";
+  width: 2rem;
+  left: 0;
+  bottom: -5px;
+  height: 3px;
+  background-color: blue;
+}
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
 
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 380px;
+  height: 430px;
+  max-width: 100% !important;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide {
+  background-image: linear-gradient(to top, #0f8edd 0%, #668496 100%);
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+  /* padding: 0.4rem 0; */
+}
+
+.swiper-slide .slideer-img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 1rem;
+}
+
+.hero {
+  /* border: 2px solid red; */
+  /* background-image: url("../public/Images/hero.jpg"); */
+  background-image: linear-gradient(to top, #0f8edd 0%, #668496 100%);
+  background-position: center;
+  background-size: cover;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  max-width: 100%;
+}
+
+.hero p {
+  width: 500px;
+  max-width: 100%;
+}
+
+.hero-content {
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  /* align-items: center; */
+  justify-content: center;
+  /* border: 1px solid red; */
+  width: fit-content;
+  max-width: 100%;
+  /* height: 100%; */
+}
+
+.gallery {
+  max-width: 100%;
+  overflow: hidden;
+}
 
 /* responsive */
 @media (max-width: 767px) {
