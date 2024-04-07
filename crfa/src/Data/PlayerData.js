@@ -178,7 +178,8 @@ const CRFAPlayers = [
     firstname: "Yusuf",
     number: 21,
     DOB: "Unknown",
-    image: "",
+    image: "./Images/yusuf1.png",
+    image_dp: "./Images/yusuf3.png",
     position: "forward",
   },
   {
