@@ -70,7 +70,7 @@ export default function Players({ gk, df, mf, fw }) {
           <h4 className="fw-bold m-0">GOALKEEPERS</h4>
           <hr className="mt-1" />
 
-          <div className="row row-cols-1 row-cols-sm-2 g-3 row-cols-md-3">
+          <div className="row row-cols-2 row-cols-sm-3 g-3 row-cols-lg-4 ">
             {goalkeepers}
           </div>
         </div>
@@ -79,7 +79,7 @@ export default function Players({ gk, df, mf, fw }) {
           <h4 className="fw-bold m-0">DEFENDERS</h4>
           <hr className="mt-1" />
 
-          <div className="row row-cols-1 row-cols-sm-2 g-3 row-cols-md-3">
+          <div className="row row-cols-2 row-cols-sm-3 g-3 row-cols-lg-4 ">
             {defenders}
           </div>
         </div>
@@ -88,7 +88,7 @@ export default function Players({ gk, df, mf, fw }) {
           <h4 className="fw-bold m-0">MIDFIELDERS</h4>
           <hr className="mt-1" />
 
-          <div className="row row-cols-1 row-cols-sm-2 g-3 row-cols-md-3">
+          <div className="row row-cols-2 row-cols-sm-3 g-3 row-cols-lg-4 ">
             {midfielders}
           </div>
         </div>
@@ -97,7 +97,7 @@ export default function Players({ gk, df, mf, fw }) {
           <h4 className="fw-bold m-0">FORWARDS</h4>
           <hr className="mt-1" />
 
-          <div className="row row-cols-1 row-cols-sm-2 g-3 row-cols-md-3">
+          <div className="row row-cols-2 row-cols-sm-3 g-3 row-cols-lg-4 ">
             {forwards}
           </div>
         </div>

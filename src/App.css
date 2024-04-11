@@ -443,3 +443,16 @@ img {
     z-index: 1;
   }
 }
+
+@media (max-width: 768px) {
+  .container2{
+    width: 95%;
+    margin: 0 auto !important;
+  }
+
+  .player_name{
+    padding: 2px !important;
+  }
+
+  
+}

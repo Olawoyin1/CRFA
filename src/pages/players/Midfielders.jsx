@@ -13,9 +13,9 @@ const Midfielders = ({ lastname, firstname, DOB, number, img }) => {
               <img src="./Images/unknown.png" alt="..." />
             )}
           </div>
-          <div className="player_name p-3">
+          <div className="player_name p-sm-3 p-2 mb-0">
             <h6 className="fw-bold player_number">{number}</h6>
-            <h6 className="fw-bold text-uppercase">
+            <h6 className="fw-bold m-0 text-uppercase">
               {lastname} <br />
               {firstname}
             </h6>
