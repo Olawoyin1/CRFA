@@ -15,7 +15,7 @@ const Goalkeeper = ({ lastname, firstname, DOB, number, img }) => {
           </div>
           <div className="player_name p-sm-3 p-2 mb-0">
             <h6 className="fw-bold player_number">{number}</h6>
-            <h6 className="fw-bold m-0 text-uppercase">
+            <h6 className="fw-sm-bold fw-bolder m-0 text-uppercase">
               {lastname} <br />
               {firstname}
             </h6>
