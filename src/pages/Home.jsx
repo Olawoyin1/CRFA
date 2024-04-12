@@ -74,7 +74,7 @@ const Home = () => {
         <div className="container">
           <h3 className="fw-bold py-3 text-center">Training Schedule</h3>
 
-          <div className="row row-cols-1 row-cols-sm-2 g-3 row-cols-md-3">
+          <div className="row row-cols-1 row-cols-md-2 g-3 row-cols-lg-3">
             <div className="col">
               <div>
                 <div className="card-2 card-3 d-flex align-items-center justify-content-center flex-column p-3">
@@ -165,16 +165,16 @@ const Home = () => {
             different origins, each with their own individual understanding of
             the game.
           </p>
-          <div className="container2 mx-auto row row-cols-1 row-cols-sm-2 g-3 my-3 row-cols-md-3">
+          <div className="container2 mx-auto  row row-cols-2 row-cols-lg-3 g-3  g-2 my-3">
             <div className="col">
               <div>
                 <div className="card card-2 shadow">
                   <div className="player_image">
                     <img src="../Images/unknown.png" alt="" />
                   </div>
-                  <div className="player_name p-3">
+                  <div className="player_name p-sm-3 p-2 mb-0">
                     <h6 className="fw-bold player_number">Coach</h6>
-                    <h6 className="fw-bold text-uppercase">Yengibiri Henry</h6>
+                    <h6 className="fw-bold m-0 text-uppercase">Yengibiri Henry</h6>
                   </div>
                 </div>
               </div>
@@ -186,9 +186,9 @@ const Home = () => {
                   <div className="player_image">
                     <img src="../Images/unknown.png" alt="" />
                   </div>
-                  <div className="player_name p-3">
+                  <div className="player_name p-sm-3 p-2 mb-0">
                     <h6 className="fw-bold player_number">Manager</h6>
-                    <h6 className="fw-bold text-uppercase">Adeniji Temitope</h6>
+                    <h6 className="fw-bold m-0 text-uppercase">Adeniji Temitope</h6>
                   </div>
                 </div>
               </div>
@@ -200,9 +200,9 @@ const Home = () => {
                   <div className="player_image">
                     <img src="../Images/carlessi2.png" alt="" />
                   </div>
-                  <div className="player_name p-3">
+                  <div className="player_name p-sm-3 p-2 mb-0">
                     <h6 className="fw-bold player_number">Asst. Coach</h6>
-                    <h6 className="fw-bold text-uppercase">Lana Caleb</h6>
+                    <h6 className="fw-bold m-0 text-uppercase">Lana Caleb</h6>
                   </div>
                 </div>
               </div>

@@ -413,6 +413,37 @@ img {
   overflow: hidden;
 }
 
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.footer a:hover{
+  color: blue;
+  font-weight: bold;
+}
+
+.footer .socials a{
+  color: #fff;
+  border: 1px solid #2f363e;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: all 500ms ease-in-out;
+}
+
+
+.footer .socials a:hover{
+  background-color: #668496;
+  color: blue;
+}
+
+.footer .other-links ul li{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 /* responsive */
 @media (max-width: 767px) {
   .timeline-items::before {
@@ -452,6 +483,11 @@ img {
 
   .player_name{
     padding: 2px !important;
+  }
+
+  .footer .other-links{
+    margin: 0;
+    padding: 0;
   }
 
   

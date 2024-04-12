@@ -105,7 +105,7 @@ const PlayerDetails = () => {
       <div className="others py-5">
         <div className="container2">
           <h3 className="fw-bold text-uppercase">OTHER {player.position}</h3>
-          <div className="row row-cols-1 row-cols-sm-2 g-3 my-3 row-cols-md-3 row-cols-lg-4">
+          <div className="row row-cols-2 row-cols-sm-3 g-3 row-cols-lg-4">
             {show.map((others) => {
               return (
                 <div className="col">
@@ -118,11 +118,11 @@ const PlayerDetails = () => {
                           <img src="../../Images/unknown.png" alt="..." />
                         )}
                       </div>
-                      <div className="player_name p-3">
+                      <div className="player_name p-sm-3 p-2 mb-0">
                         <h6 className="fw-bold player_number">
                           {others.number}
                         </h6>
-                        <h6 className="fw-bold text-uppercase">
+                        <h6 className="fw-bold m-0 text-uppercase">
                           {others.lastname} <br />
                           {others.firstname}
                         </h6>
