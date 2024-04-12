@@ -16,12 +16,14 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.js";
 import PlayerLayout from "./layouts/PlayerLayout.jsx";
 import CRFAPlayers from "./Data/PlayerData.js";
-import Goalkeeper from "./pages/players/Goalkeeper.jsx";
-import Defenders from "./pages/players/Defenders";
+// import Goalkeeper from "./pages/players/Goalkeeper.jsx";
+// import Defenders from "./pages/players/Defenders";
 
-import Midfielders from "./pages/players/Midfielders";
-import Forwards from "./pages/players/Forwards";
+// import Midfielders from "./pages/players/Midfielders";
+// import Forwards from "./pages/players/Forwards";
 import About from "./pages/About.jsx";
+import News from "./pages/News.jsx";
+import Fixtures from "./pages/Fixtures.jsx";
 
 const goalkeepers = CRFAPlayers.filter(
   (item) => item.position === "goalkeeper"
@@ -41,6 +43,8 @@ const main = createBrowserRouter(
       <Route index element={<Home />} />
 
       <Route path="about" element={<About />} />
+      <Route path="news" element={<News />} />
+      <Route path="fixtures" element={<Fixtures />} />
       {/* <Route path="players" element={<Players />} /> */}
 
       {/* <Route path="players" element={<PlayerLayout />} >

@@ -20,7 +20,7 @@ const Home = () => {
           <div className="d-flex">
             <div className="hero-content">
               <h1 className="fw-bold text-white">CLASSIC ROYALS FA</h1>
-              <p className="text-white">Win the DAY, Win the GAME</p>
+              <p className="text-white">Win the GAME, Win the DAY</p>
             </div>
             <div className="hero-img">
               {/* <img
@@ -36,12 +36,12 @@ const Home = () => {
       <div className="about_us py-5">
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-lg-6 col-md-5">
               <div className="about_image">
                 <img src="../../Images/about.jpg" alt="about us Img" />
               </div>
             </div>
-            <div className="col-md-6 mt-3 mt-md-0">
+            <div className="col-lg-6 col-md-7  mt-3 mt-md-0">
               <h2 className="fw-bold mb-3 dash">About CRFA</h2>
               <div className="about_text">
                 <p>
@@ -61,7 +61,7 @@ const Home = () => {
                   sint itaque rem eveniet, excepturi blanditiis beatae, dolores
                   labore modi vero delectus? Vel, ut!
                 </p>
-                <Link className="button" to="about">
+                <Link className="button d-md-flex d-block" to="about">
                   More about us
                 </Link>
               </div>
@@ -81,7 +81,7 @@ const Home = () => {
                   <h6 className="fw-bold">Mondays</h6>
                   {/* <TbPlayFootball size={25} className="mb-2 icon" /> */}
                   <p>Fitness & Conditioning exercises</p>
-                  <div className="m-0 p-0 d-flex w-100 align-items-center justify-content-between">
+                  <div className="m-0 mt-2 p-0 d-flex w-100 align-items-center justify-content-between">
                     <div className="d-flex align-items-center gap-1">
                       <CiLocationOn />
                       <p className="m-0 p-0">OAU staff school pitch</p>
@@ -98,7 +98,7 @@ const Home = () => {
                   <h6 className="fw-bold">Wednessdays</h6>
                   {/* <TbPlayFootball className="mb-2 icon" /> */}
                   <p>Technical Drills</p>
-                  <div className="m-0 p-0 d-flex w-100 align-items-center justify-content-between">
+                  <div className="m-0 mt-2 p-0 d-flex w-100 align-items-center justify-content-between">
                     <div className="d-flex align-items-center gap-1">
                       <CiLocationOn />
                       <p className="m-0 p-0">OAU staff school pitch</p>
@@ -115,7 +115,7 @@ const Home = () => {
                   <h6 className="fw-bold">Fridays</h6>
                   {/* <TbPlayFootball className="mb-2 icon" /> */}
                   <p>Full sided games</p>
-                  <div className="m-0 p-0 d-flex w-100 align-items-center justify-content-between">
+                  <div className="m-0 mt-2 p-0 d-flex w-100 align-items-center justify-content-between">
                     <div className="d-flex align-items-center gap-1">
                       <CiLocationOn />
                       <p className="m-0 p-0">OAU staff school pitch</p>
@@ -165,7 +165,7 @@ const Home = () => {
             different origins, each with their own individual understanding of
             the game.
           </p>
-          <div className="container2 mx-auto  row row-cols-2 row-cols-lg-3 g-3  g-2 my-3">
+          <div className="container2 mx-auto  row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3  g-2 my-3">
             <div className="col">
               <div>
                 <div className="card card-2 shadow">

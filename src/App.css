@@ -17,12 +17,14 @@
   list-style: none;
 }
 
+
 a {
   list-style: none;
 }
 
 p {
   font-size: 14.5px;
+  margin: 0 !important;
 }
 
 .container2 {
@@ -64,7 +66,7 @@ img {
 .card {
   border-radius: 1rem !important;
   overflow: hidden;
-  overflow: hidden;
+  overflow: hidden !important;
   position: relative;
   max-height: 300px !important;
   object-fit: contain;
@@ -413,6 +415,9 @@ img {
   overflow: hidden;
 }
 
+.footer{
+  background-image: linear-gradient(to top, #0f8edd 0%, #668496 100%);
+}
 
 .footer a {
   color: #fff;
@@ -429,13 +434,18 @@ img {
   color: #fff;
   border: 1px solid #2f363e;
   padding: 0.5rem;
+  width: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
   border-radius: 50%;
   transition: all 500ms ease-in-out;
 }
 
 
 .footer .socials a:hover{
-  background-color: #668496;
+  background-color: #FF8013;
   color: blue;
 }
 
@@ -443,6 +453,24 @@ img {
   margin: 0 !important;
   padding: 0 !important;
 }
+
+
+.news-card {
+  height: 400px;
+  /* background-color: red; */
+}
+
+.card-image{
+  height: 200px;
+  object-fit: contain;
+  overflow: hidden !important;;
+}
+
+.card-body{
+  padding: 1rem !important;
+}
+
+
 
 /* responsive */
 @media (max-width: 767px) {

@@ -2,7 +2,7 @@ import React from 'react'
 import { FaXTwitter } from "react-icons/fa6";
 import { PiYoutubeLogoLight } from "react-icons/pi";
 import { SlSocialInstagram } from "react-icons/sl";
-import { PiTiktokLogoThin } from "react-icons/pi";
+import { IoLogoTiktok } from "react-icons/io5";
 import { FaThreads } from "react-icons/fa6";
 import { FaSnapchat } from "react-icons/fa6";
 
@@ -10,41 +10,45 @@ import { FaSnapchat } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className='footer pt-5 pb-2 bg-secondary'>
+    <div className='footer pt-5 pb-2'>
         <div className="container">
             <div className="socials m-0 d-flex flex-wrap align-items-center justify-content-center gap-4">
-                <a href="#">
-                    <FaXTwitter size={22} />
+                <a href="#twiter">
+                    <FaXTwitter size={20} />
                 </a>
-                <a href="#">
-                    <PiYoutubeLogoLight size={22} />
+                <a href="#youtube">
+                    <PiYoutubeLogoLight size={20} />
                 </a>
-                <a href="#">
-                    <SlSocialInstagram size={22} />
+                <a href="#insta">
+                    <SlSocialInstagram size={20} />
                 </a>
-                <a href="#">
-                    <PiTiktokLogoThin size={22} />
+                <a href="#tiktok">
+                <IoLogoTiktok size={20}/>
                 </a>
-                <a href="#">
-                    <FaThreads size={22} />
+                <a href="#thread">
+                    <FaThreads size={20} />
                 </a>
-                <a href="#">
-                    <FaSnapchat size={22} />
+                <a href="#snap">
+                    <FaSnapchat size={20} />
                 </a>
             </div>
             <div className="other-links mt-3 my-sm-4 m-0">
                 <ul className='d-md-flex  p-0 m-0  align-items-center justify-content-md-around'>
-                    <li><a href="#">Download the App</a></li>
+                    <li><a href="#app">Download Our App</a></li>
                     <hr  className='my-1'/>
-                    <li><a href="#">contact us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                     <hr  className='my-1'/>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                     <hr  className='my-1'/>
-                    <li><a href="#">Fan page</a></li>
+                    <li><a href="#fan">Fan page</a></li>
                     <hr  className='my-1'/>
-                    <li><a href="#">One more</a></li>
+                    <li><a href="#matches">Matches</a></li>
                     <hr  className='my-1'/>
-                    <li className='m-0'><a href="#">Fixtures</a></li>
+                    <li className='m-0'><a href="#fixture">Fixtures</a></li>
+                    <hr  className='my-1'/>
+                    <li className='m-0'><a href="#result">Results</a></li>
+                    <hr  className='my-1'/>
+                    <li className='m-0'><a href="#result">Membership</a></li>
                     <hr  className='my-1'/>
                 </ul>
             </div>
