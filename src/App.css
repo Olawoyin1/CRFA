@@ -422,26 +422,19 @@ img {
 .footer a {
   color: #fff;
   text-decoration: none;
+  opacity: 0.95;
+  transition: all 500ms ease-in-out;
+  font-size: 14px;
 }
 
 
 .footer a:hover{
   color: blue;
   font-weight: bold;
+  margin-left: 5px;
 }
 
-.footer .socials a{
-  color: #fff;
-  border: 1px solid #2f363e;
-  padding: 0.5rem;
-  width: 2.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 2.5rem;
-  border-radius: 50%;
-  transition: all 500ms ease-in-out;
-}
+
 
 
 .footer .socials a:hover{
@@ -449,7 +442,7 @@ img {
   color: blue;
 }
 
-.footer .other-links ul li{
+.footer ul li{
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -516,6 +509,11 @@ img {
   .footer .other-links{
     margin: 0;
     padding: 0;
+  }
+
+  .footer a:hover{
+    color: white;
+    font-weight: bold;
   }
 
   
