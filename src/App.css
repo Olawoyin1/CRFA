@@ -448,9 +448,15 @@ img {
 }
 
 
+#news{
+  background-color: #f1f1f1;
+}
+
 .news-card {
   height: 400px;
   /* background-color: red; */
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
 }
 
 .card-image{
@@ -460,7 +466,19 @@ img {
 }
 
 .card-body{
-  padding: 1rem !important;
+  padding: 0.7rem !important;
+}
+
+.card-body .time{
+  font-size: 13px;
+}
+
+.share{
+  position: absolute;
+  bottom: 0.7rem;
+  left: 0;
+  width: 100%;
+  padding: 0 0.7rem;
 }
 
 

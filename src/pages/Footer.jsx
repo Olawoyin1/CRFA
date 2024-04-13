@@ -50,7 +50,7 @@ const Footer = () => {
                     <h5 className="fw-bold mb-3 text-light">FOLLOW US</h5>
                     <ul className='d-flex flex-column gap-2 p-0 m-0'>
                         <li className='d-flex gap-2'><a href="#app"><FaXTwitter size={20} /> <small><i>Twitter</i></small></a></li>
-                        <li><a href="#faq"><SlSocialInstagram size={20} /> <small><i>Instagram</i></small></a></li>
+                        <li><a href="https://www.instagram.com/classic_royals_fc/"><SlSocialInstagram size={20} /> <small><i>Instagram</i></small></a></li>
                         <li><a href="#contact"><PiYoutubeLogoLight size={20} /> <small><i>Youtube</i></small></a></li>
                         <li><a href="#matches"><IoLogoTiktok size={20}/> <small><i>Tiktok</i></small></a></li>
                         <li><a href="#fixture"><FaThreads size={20} /> <small><i>Thread</i></small></a></li>
