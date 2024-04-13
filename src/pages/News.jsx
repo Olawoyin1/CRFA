@@ -27,7 +27,7 @@ const News = () => {
                                     <p className="topic fw-bold my-2">CLASSIC ROYALS TRIAL</p>
                                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to... </p>
                                     <div class="d-flex share justify-content-between align-items-center">
-                                        <p className="badge bg-primary">CLFA</p>
+                                        <p className="badge bg-primary">CRFA</p>
                                         <small class="text-muted"><IoShareSocial size={20} /></small>
                                     </div>
                                 </div>
