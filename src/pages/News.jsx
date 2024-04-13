@@ -6,13 +6,13 @@ const News = () => {
   return (
     <div id='news'>
         <div className="container2">
-            <div className="news-header mt-4 d-flex align-items-center justify-content-between">
-                <p className="fw-bold">ALL NEWS</p>
-                <p className="fw-bold">CATEGORIES</p>
-            </div>
            
             <div class="main-news py-5">
                 <div class="container">
+                    <div className="news-header mb-4 d-flex align-items-center justify-content-between">
+                        <p className="fw-bold">ALL NEWS</p>
+                        <p className="fw-bold">CATEGORIES</p>
+                    </div>
 
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 

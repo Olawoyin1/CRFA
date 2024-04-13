@@ -14,9 +14,9 @@ const Footer = () => {
         <div className="container">
            
 
-            <div className='row row-cols-2 row-cols-sm-3 g-3 row-cols-lg-4'>
+            <div className='row row-cols-2 row-cols-sm-3 g-3 gy-5 row-cols-lg-4'>
                 <div className="col">
-                    <h5 className="fw-bold mb-3 text-light">COMMUNITY</h5>
+                    <h6 className="fw-bold mb-3 text-light">COMMUNITY</h6>
                     <ul className='d-flex flex-column gap-2 p-0 m-0'>
                         <li><a href="#app">Download Our App</a></li>
                         <li><a href="#contact">Fan Page</a></li>
@@ -26,7 +26,7 @@ const Footer = () => {
                 </div>
 
                 <div className="col">
-                    <h5 className="fw-bold mb-3 text-light">PAGES</h5>
+                    <h6 className="fw-bold mb-3 text-light">PAGES</h6>
                     <ul className='d-flex flex-column gap-2 p-0 m-0'>
                         <li><a href="#faq">Players</a></li>
                         <li><a href="#result">News</a></li>
@@ -36,7 +36,7 @@ const Footer = () => {
                 </div>
 
                 <div className="col">
-                    <h5 className="fw-bold mb-3 text-light">QUICK LINKS</h5>
+                    <h6 className="fw-bold mb-3 text-light">QUICK LINKS</h6>
                     <ul className='d-flex flex-column gap-2 p-0 m-0'>
                         <li><a href="#contact">Contact Us</a></li>
                         <li><a href="#matches">Matches</a></li>
@@ -47,11 +47,11 @@ const Footer = () => {
 
 
                 <div className="col">
-                    <h5 className="fw-bold mb-3 text-light">FOLLOW US</h5>
+                    <h6 className="fw-bold mb-3 text-light">FOLLOW US</h6>
                     <ul className='d-flex flex-column gap-2 p-0 m-0'>
                         <li className='d-flex gap-2'><a href="#app"><FaXTwitter size={20} /> <small><i>Twitter</i></small></a></li>
                         <li><a href="https://www.instagram.com/classic_royals_fc/"><SlSocialInstagram size={20} /> <small><i>Instagram</i></small></a></li>
-                        <li><a href="#contact"><PiYoutubeLogoLight size={20} /> <small><i>Youtube</i></small></a></li>
+                        {/* <li><a href="#contact"><PiYoutubeLogoLight size={20} /> <small><i>Youtube</i></small></a></li> */}
                         <li><a href="#matches"><IoLogoTiktok size={20}/> <small><i>Tiktok</i></small></a></li>
                         <li><a href="#fixture"><FaThreads size={20} /> <small><i>Thread</i></small></a></li>
                     </ul>
@@ -59,7 +59,7 @@ const Footer = () => {
 
 
             </div>
-            <p className='text-center text-white mt-4  fw-bold'>© 2024 Classic Royals FA </p>
+            <p className='text-center text-white mt-5  fw-bold'>© 2024 Classic Royals FA </p>
         </div>
     </div>
   )
