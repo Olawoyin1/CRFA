@@ -19,29 +19,29 @@ const Footer = () => {
                     <h6 className="fw-bold mb-3 text-light">COMMUNITY</h6>
                     <ul className='d-flex flex-column gap-2 p-0 m-0'>
                         <li><a href="#app">Download Our App</a></li>
-                        <li><a href="#contact">Fan Page</a></li>
-                        <li><a href="#matches">Matches</a></li>
-                        <li><a href="#result">Results</a></li>
+                        <li><a href="fans">Fan Page</a></li>
+                        <li><a href="matches">Matches</a></li>
+                        <li><a href="result">Results</a></li>
                     </ul>
                 </div>
 
                 <div className="col">
                     <h6 className="fw-bold mb-3 text-light">PAGES</h6>
                     <ul className='d-flex flex-column gap-2 p-0 m-0'>
-                        <li><a href="#faq">Players</a></li>
-                        <li><a href="#result">News</a></li>
-                        <li><a href="#fan">About Us</a></li>
-                        <li><a href="#result">News</a></li>
+                        <li><a href="players">Players</a></li>
+                        <li><a href="news">News</a></li>
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="news">News</a></li>
                     </ul>
                 </div>
 
                 <div className="col">
                     <h6 className="fw-bold mb-3 text-light">QUICK LINKS</h6>
                     <ul className='d-flex flex-column gap-2 p-0 m-0'>
-                        <li><a href="#contact">Contact Us</a></li>
-                        <li><a href="#matches">Matches</a></li>
-                        <li><a href="#fixture">Fixtures</a></li>
-                        <li><a href="#result">Results</a></li>
+                        <li><a href="contact">Contact Us</a></li>
+                        <li><a href="matches">Matches</a></li>
+                        <li><a href="fixture">Fixtures</a></li>
+                        <li><a href="result">Results</a></li>
                     </ul>
                 </div>
 

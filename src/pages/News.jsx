@@ -11,7 +11,17 @@ const News = () => {
                 <div class="container">
                     <div className="news-header mb-4 d-flex align-items-center justify-content-between">
                         <p className="fw-bold">ALL NEWS</p>
-                        <p className="fw-bold">CATEGORIES</p>
+                        <div class="dropdown">
+                            <p class="fw-bold dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                CATEGORIES
+                            </p>
+                            <ul class="dropdown-menu p-0 g-4" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#0">ISL</a></li>
+                                <li><a class="dropdown-item" href="#1">PRE-SEASON</a></li>
+                                <li><a class="dropdown-item" href="#2">DINO</a></li>
+                                <li><a class="dropdown-item" href="#2">FRIENDLY</a></li>
+                            </ul>
+                        </div>
                     </div>
 
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
