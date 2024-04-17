@@ -10,7 +10,7 @@ const Midfielders = ({ lastname, firstname, DOB, number, img }) => {
             {img ? (
               <img src={img} alt="..." />
             ) : (
-              <img src="./Images/unknown.png" alt="..." />
+              <img src="./Images/crfa_logo.png" className="no-img" alt="..." />
             )}
           </div>
           <div className="player_name p-sm-3 p-2 mb-0">
