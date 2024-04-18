@@ -73,15 +73,6 @@ const CRFAPlayers = [
     position: "defender",
   },
   {
-    id: 9,
-    lastname: "Ojediran",
-    firstname: "Opeyemi",
-    number: 13,
-    DOB: "Unknown",
-    image: "",
-    position: "defender",
-  },
-  {
     id: 10,
     lastname: "Fasesin",
     firstname: "David",

@@ -170,7 +170,7 @@ const Home = () => {
               <div>
                 <div className="card card-2 shadow">
                   <div className="player_image">
-                    <img src="../Images/unknown.png" alt="" />
+                    <img src="../Images/crfa_logo.png" className="no-img" alt="" />
                   </div>
                   <div className="player_name p-sm-3 p-2 mb-0">
                     <h6 className="fw-bold player_number">Coach</h6>
@@ -184,7 +184,7 @@ const Home = () => {
               <div>
                 <div className="card card-2 shadow">
                   <div className="player_image">
-                    <img src="../Images/unknown.png" alt="" />
+                    <img src="../Images/crfa_logo.png" className="no-img" alt="" />
                   </div>
                   <div className="player_name p-sm-3 p-2 mb-0">
                     <h6 className="fw-bold player_number">Manager</h6>
@@ -198,7 +198,7 @@ const Home = () => {
               <div>
                 <div className="card card-2 shadow">
                   <div className="player_image">
-                    <img src="../Images/carlessi2.png" alt="" />
+                    <img src="../Images/lana22.png" alt="" />
                   </div>
                   <div className="player_name p-sm-3 p-2 mb-0">
                     <h6 className="fw-bold player_number">Asst. Coach</h6>
