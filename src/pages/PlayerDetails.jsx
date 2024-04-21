@@ -115,7 +115,7 @@ const PlayerDetails = () => {
                         {others.image ? (
                           <img src={`../../${others.image}`} alt="..." />
                         ) : (
-                          <img src="../../Images/unknown.png" alt="..." />
+                          <img src="../../Images/crfa_logo.png" className="no-img" alt="..." />
                         )}
                       </div>
                       <div className="player_name p-sm-3 p-2 mb-0">

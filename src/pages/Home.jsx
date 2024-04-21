@@ -3,6 +3,7 @@ import { CiLocationOn } from "react-icons/ci";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-cards";
+import { IoShareSocial } from "react-icons/io5";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 // import './styles.css';
@@ -30,6 +31,80 @@ const Home = () => {
               /> */}
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="news py-5">
+        <div className="container">
+          <h5 className="fw-bold text-center">NEWS</h5>
+        <div class="main-news py-1">
+                <div class="container">
+                    <div className="news-header mb-4 d-flex align-items-center justify-content-end">
+                        <a href="#all">ALL NEWS</a>
+                    </div>
+
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+                        <div class="col overflow-hidden">
+                            <div class="news-card bg-white">
+                                <div className="card-image">
+                                    <img src="../Images/trial.jpg" alt="" />
+                                </div>
+
+                                <div class="card-body ">
+                                    <p className="text-muted time mt-3">3 HOURS AGO</p>
+                                    <p className="topic fw-bold my-2">CLASSIC ROYALS TRIAL</p>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to... </p>
+                                    <div class="d-flex share justify-content-between align-items-center">
+                                        <p className="badge bg-primary">CRFA</p>
+                                        <small class="text-muted"><IoShareSocial size={20} /></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col overflow-hidden">
+                            <div class="news-card bg-white">
+                                <div className="card-image">
+                                    <img src="../Images/ps2.jpg" alt="" />
+                                </div>
+
+                                <div class="card-body ">
+                                    <p className="text-muted time mt-3">6 DAYS AGO</p>
+                                    <p className="topic fw-bold my-2">CLASSIC ROYALS VS PANTHERS FC PRE SEASON MATCH</p>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to... </p>
+                                    <div class="d-flex share justify-content-between align-items-center">
+                                        <p className="badge bg-primary">PRE SEASON</p>
+                                        <small class="text-muted"><IoShareSocial size={20} /></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col overflow-hidden">
+                            <div class="news-card bg-white">
+                                <div className="card-image">
+                                    <img src="../Images/ps3.jpg" alt="" />
+                                </div>
+
+                                <div class="card-body ">
+                                    <p className="text-muted time mt-3">9 DAYS AGO</p>
+                                    <p className="topic fw-bold my-2">CLASSIC ROYALS VS TOWN HALL FC PRE SEASON MATCH</p>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to... </p>
+                                    <div class="d-flex share justify-content-between align-items-center">
+                                        <p className="badge bg-primary">PRE SEASON</p>
+                                        <small class="text-muted"><IoShareSocial size={20} /></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
 

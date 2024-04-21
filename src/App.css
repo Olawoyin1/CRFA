@@ -532,16 +532,16 @@ img {
   background-color: #0f8edd !important;
 }
 
-.fixture-hero-image{
-  height: 300px;
-  overflow: hidden;
-  object-fit: contain;
+.date-time{
+  background-color: #F5F5F5;
 }
 
-.fixture-hero-image img{
-  max-width: 100%;
-  
+.match-info img{
+  width: 40px;
+  height: 40px;
 }
+
+
 
 /* responsive */
 @media (max-width: 767px) {
