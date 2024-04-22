@@ -44,6 +44,41 @@ const Home = () => {
                     </div>
 
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col overflow-hidden">
+                            <div class="news-card bg-white">
+                                <div className="card-image">
+                                    <img src="../Images/matchday-1.jpg" alt="" />
+                                </div>
+
+                                <div class="card-body ">
+                                    <p className="text-muted time mt-3">1 HOURS AGO</p>
+                                    <p className="topic fw-bold my-2">ISL MATCHWEEK ONE</p>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to... </p>
+                                    <div class="d-flex share justify-content-between align-items-center">
+                                        <p className="badge bg-primary">ISL</p>
+                                        <small class="text-muted"><IoShareSocial size={20} /></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col overflow-hidden">
+                            <div class="news-card bg-white">
+                                <div className="card-image">
+                                    <img src="../Images/squad-list.jpeg" alt="" />
+                                </div>
+
+                                <div class="card-body ">
+                                    <p className="text-muted time mt-3">1 HOURS AGO</p>
+                                    <p className="topic fw-bold my-2">ISCO SPORT LEAGUE SQUAD LIST</p>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to... </p>
+                                    <div class="d-flex share justify-content-between align-items-center">
+                                        <p className="badge bg-primary">ISL</p>
+                                        <small class="text-muted"><IoShareSocial size={20} /></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                         <div class="col overflow-hidden">
                             <div class="news-card bg-white">
@@ -64,41 +99,9 @@ const Home = () => {
                         </div>
 
 
-                        <div class="col overflow-hidden">
-                            <div class="news-card bg-white">
-                                <div className="card-image">
-                                    <img src="../Images/ps2.jpg" alt="" />
-                                </div>
+                      
 
-                                <div class="card-body ">
-                                    <p className="text-muted time mt-3">6 DAYS AGO</p>
-                                    <p className="topic fw-bold my-2">CLASSIC ROYALS VS PANTHERS FC PRE SEASON MATCH</p>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to... </p>
-                                    <div class="d-flex share justify-content-between align-items-center">
-                                        <p className="badge bg-primary">PRE SEASON</p>
-                                        <small class="text-muted"><IoShareSocial size={20} /></small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col overflow-hidden">
-                            <div class="news-card bg-white">
-                                <div className="card-image">
-                                    <img src="../Images/ps3.jpg" alt="" />
-                                </div>
-
-                                <div class="card-body ">
-                                    <p className="text-muted time mt-3">9 DAYS AGO</p>
-                                    <p className="topic fw-bold my-2">CLASSIC ROYALS VS TOWN HALL FC PRE SEASON MATCH</p>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to... </p>
-                                    <div class="d-flex share justify-content-between align-items-center">
-                                        <p className="badge bg-primary">PRE SEASON</p>
-                                        <small class="text-muted"><IoShareSocial size={20} /></small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                       
 
 
                         
