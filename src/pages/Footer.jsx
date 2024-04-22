@@ -40,7 +40,7 @@ const Footer = () => {
                     <ul className='d-flex flex-column gap-2 p-0 m-0'>
                         <li><a href="contact">Contact Us</a></li>
                         <li><a href="matches">Matches</a></li>
-                        <li><a href="fixture">Fixtures</a></li>
+                        <li><a href="fixtures">Fixtures</a></li>
                         <li><a href="result">Results</a></li>
                     </ul>
                 </div>
