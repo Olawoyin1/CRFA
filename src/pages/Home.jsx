@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { CiLocationOn } from "react-icons/ci";
+import { IoIosArrowForward } from "react-icons/io";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-cards";
@@ -40,7 +41,8 @@ const Home = () => {
         <div class="main-news py-1">
                 <div class="container">
                     <div className="news-header mb-4 d-flex align-items-center justify-content-end">
-                        <a href="#all">ALL NEWS</a>
+                        <a href="#all" className="nav-link fw-bold">ALL NEWS</a>
+                        <IoIosArrowForward />
                     </div>
 
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -97,13 +99,6 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-
-
-                      
-
-                       
-
-
                         
                     </div>
                 </div>
@@ -123,24 +118,15 @@ const Home = () => {
               <h2 className="fw-bold mb-3 dash">About CRFA</h2>
               <div className="about_text">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                  aperiam id labore fugiat. Id dolor ea odit odio, vero quo sed
-                  hic nesciunt corporis autem ipsam eligendi ratione commodi
-                  fugiat. <br />
+                welcome to Classic Royals Football Academy – where every kick counts and every dream matters. We're not just a team; we're a family, bound by our love for the game and our desire to see each other succeed.<br />
                   <br />
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis quos nulla placeat, nobis nesciunt alias optio illum,
-                  tempore maxime officiis excepturi, non exercitationem facere
-                  officia sunt earum rerum. At, sequi!
+                  At Classic Royals, our coaches aren't just here to teach you skills; they're here to cheer you on, pick you up when you're down, and celebrate your victories like they're their own. We believe in the power of teamwork, dedication, and a good old-fashioned love for football.
                   <br />
                   <br />
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est,
-                  ipsum quaerat officia atque consequuntur consequatur dicta
-                  sint itaque rem eveniet, excepturi blanditiis beatae, dolores
-                  labore modi vero delectus? Vel, ut!
+                  Whether you're just starting out or you've been playing since you could walk, there's a place for you here at Classic Royals. So, come join us on the field, where we'll work hard, play hard, and have a whole lot of fun along the way. Because at Classic Royals Football Academy, we're not just building players – we're building champions, both on and off the pitch.
                 </p>
-                <Link className="button d-md-flex d-block" to="about">
-                  More about us
+                <Link className="mt-3" to="about">
+                  <button className="button-37 mt-3">More About Us</button>
                 </Link>
               </div>
             </div>

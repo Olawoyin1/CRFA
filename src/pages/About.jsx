@@ -14,22 +14,13 @@ const About = () => {
             <h2 className="fw-bold mb-3 dash">About Us</h2>
             <div className="about_text">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                aperiam id labore fugiat. Id dolor ea odit odio, vero quo sed
-                hic nesciunt corporis autem ipsam eligendi ratione commodi
-                fugiat. <br />
-                <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                quos nulla placeat, nobis nesciunt alias optio illum, tempore
-                maxime officiis excepturi, non exercitationem facere officia
-                sunt earum rerum. At, sequi!
-                <br />
-                <br />
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est,
-                ipsum quaerat officia atque consequuntur consequatur dicta sint
-                itaque rem eveniet, excepturi blanditiis beatae, dolores labore
-                modi vero delectus? Vel, ut!
-              </p>
+                welcome to Classic Royals Football Academy – where every kick counts and every dream matters. We're not just a team; we're a family, bound by our love for the game and our desire to see each other succeed.<br />
+                  <br />
+                  At Classic Royals, our coaches aren't just here to teach you skills; they're here to cheer you on, pick you up when you're down, and celebrate your victories like they're their own. We believe in the power of teamwork, dedication, and a good old-fashioned love for football.
+                  <br />
+                  <br />
+                  Whether you're just starting out or you've been playing since you could walk, there's a place for you here at Classic Royals. So, come join us on the field, where we'll work hard, play hard, and have a whole lot of fun along the way. Because at Classic Royals Football Academy, we're not just building players – we're building champions, both on and off the pitch.
+                </p>
             </div>
           </div>
         </div>
@@ -47,9 +38,7 @@ const About = () => {
                 <div class="timeline-content">
                   <h3>Kickoff</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{" "}
+                  Back in 2020, Classic Royals Football Academy began as a dream shared among students on OAU CAMPUS. With nothing but a few soccer balls, a patch of grass, and a whole lot of determination, we kicked off our journey to create something special – a place where Students could play the game they loved and become the best they could be.{" "}
                   </p>
                 </div>
               </div>
@@ -59,9 +48,7 @@ const About = () => {
                 <div class="timeline-content">
                   <h3>Unforgetable Games</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{" "}
+                  Over the years, we've had our fair share of unforgettable moments on the field. From heart-stopping comebacks to glorious victories, each game has been a chapter in our story. Who could forget the match we played aginst PJT FA at IFE ANGLICAN during the ISL, when the whole team erupted in cheers and celebrations?{" "}
                   </p>
                 </div>
               </div>
@@ -71,9 +58,7 @@ const About = () => {
                 <div class="timeline-content">
                   <h3>Constant Improvement</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{" "}
+                  We've always believed in getting better every day, both as individuals and as a team. Whether it's tweaking our training drills, upgrading our facilities, we're constantly pushing ourselves to reach new heights. It's this drive for improvement that's kept us at the top of our game.{" "}
                   </p>
                 </div>
               </div>
@@ -83,9 +68,7 @@ const About = () => {
                 <div class="timeline-content">
                   <h3>Now</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{" "}
+                  Today, Classic Royals Football Academy is more than just a club – it's a family. From our youngest players to our seasoned veterans, we're united by our love for the game and our desire to see each other succeed. Our fields are alive with the sound of laughter and the thud of soccer balls, as we continue to chase our dreams together.{" "}
                   </p>
                 </div>
               </div>
@@ -95,9 +78,7 @@ const About = () => {
                 <div class="timeline-content">
                   <h3>Best Moment</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{" "}
+                  While there have been many highlights along the way, one moment stands out above the rest. It was , a victory that wasn't just about winning a game but about coming together as a team and as a community. It's a memory we'll cherish forever.{" "}
                   </p>
                 </div>
               </div>
