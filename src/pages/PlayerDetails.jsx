@@ -5,9 +5,7 @@ import CRFAPlayers from "../Data/PlayerData";
 
 const PlayerDetails = () => {
   const { id } = useParams();
-  // console.log(lastname);
   const player = CRFAPlayers.find((item) => item.id === id);
-  // console.log(player);
 
   const OP = CRFAPlayers.filter(
     (item) =>
@@ -37,35 +35,20 @@ const PlayerDetails = () => {
         </div>
       </div>
 
-      <div className="p_profile shadow d-flex align-items-center pt-3 m-0 justify-content-center gap-5">
+      <div className="p_profile m-0 shadow d-flex align-items-center p-2  m-0 justify-content-center gap-5">
         <p>Profile</p>
         <p>Socials</p>
       </div>
 
       <div class="bio">
         <div class="container2">
-          <div class="row my-4 py-3">
+          <div class="row my-4 m-0 py-3">
             <div class="col-md-7">
               <h3 class="fw-bold my-3 text-primary">BIO</h3>
 
-              <div class="player_bio">
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint
-                  porro error neque, temporibus cupiditate reiciendis ratione
-                  aperiam itaque mollitia dolor eligendi ipsa quaerat hic quidem
-                  autem, accusantium laboriosam? Molestiae, explicabo? <br />
-                  <br />
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Assumenda quae, omnis ducimus numquam aperiam deserunt
-                  blanditiis, consequuntur cupiditate magni illo fuga dolorem
-                  soluta tenetur distinctio veritatis dolores nostrum deleniti
-                  porro, recusandae explicabo totam doloribus quia sit. Id,
-                  distinctio. Voluptatem beatae quisquam ut at explicabo tempora
-                  nulla sit ipsum corrupti dicta. <br />
-                  <br />
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veniam natus delectus atque nisi possimus quasi, nemo ad
-                  libero placeat ex.
+              <div class="player_bio" style={{ whiteSpace: 'pre-wrap' }}>
+                <p> 
+                  {player.bio}
                 </p>
               </div>
             </div>
@@ -75,7 +58,7 @@ const PlayerDetails = () => {
 
               <div>
                 <small class="text-muted">Date of Birth</small>
-                <h4 class="fw-bold ans">22-04-2022</h4>
+                <h4 class="fw-bold ans">{player.DOB}</h4>
                 <hr class="mt-1" width="300px" />
               </div>
 
@@ -87,7 +70,7 @@ const PlayerDetails = () => {
 
               <div>
                 <small class="text-muted">Joined Classic</small>
-                <h4 class="fw-bold ans">22-04-2022</h4>
+                <h4 class="fw-bold ans">{player.joined}</h4>
                 <hr class="mt-1" width="300px" />
               </div>
 
@@ -108,7 +91,7 @@ const PlayerDetails = () => {
             {show.map((others) => {
               return (
                 <div className="col">
-                  <a href={`${others.lastname}`} to={`${others.lastname}`}>
+                  <a href={`${others.id}`} to={`${others.id}`}>
                     <div className="card shadow">
                       <div className="player_image">
                         {others.image ? (

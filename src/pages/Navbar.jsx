@@ -12,7 +12,7 @@ const Navbar = () => {
               className="img-fluid logo-img"
               alt=""
             />
-            <h2 className="fw-bold d-none d-lg-flex mt-2">CRFA</h2>
+            {/* <h2 className="fw-bold d-none d-lg-flex mt-2">CRFA</h2> */}
           </Link>
           <button
             className="navbar-toggler"
