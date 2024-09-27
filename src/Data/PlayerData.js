@@ -5,7 +5,7 @@ const CRFAPlayers = [
     firstname: "Peace",
     number: 99,
     DOB: "Unknown",
-    image: "29-02-2002",
+    image: "",
     position: "goalkeeper",
     joined : "2022",
     bio : "N/A"
@@ -15,8 +15,8 @@ const CRFAPlayers = [
     lastname: "Oyedele",
     firstname: "Temitayo",
     number: 1,
-    DOB: "Unknown",
-    image: "23-09-1999",
+    DOB: "23-09-1999",
+    image: "",
     position: "goalkeeper",
     joined : "2023",
     bio : "N/A"

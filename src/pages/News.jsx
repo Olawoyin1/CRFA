@@ -35,7 +35,7 @@ const News = () => {
                                 <div class="card-body ">
                                     <p className="text-muted time mt-3">1 HOURS AGO</p>
                                     <p className="topic fw-bold my-2">ISL MATCHWEEK ONE</p>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to... </p>
+                                    <p class="card-text">The Isco Sport League (ISL) kicked off its much-anticipated season with Matchweek One, showcasing exhilarating performances... </p>
                                     <div class="d-flex share justify-content-between align-items-center">
                                         <p className="badge bg-primary">ISL</p>
                                         <small class="text-muted"><IoShareSocial size={20} /></small>
@@ -53,7 +53,7 @@ const News = () => {
                                 <div class="card-body ">
                                     <p className="text-muted time mt-3">1 HOURS AGO</p>
                                     <p className="topic fw-bold my-2">ISCO SPORT LEAGUE SQUAD LIST</p>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to... </p>
+                                    <p class="card-text">Classic Royals FA players representing the team in the ISL LEAGUE...</p>
                                     <div class="d-flex share justify-content-between align-items-center">
                                         <p className="badge bg-primary">ISL</p>
                                         <small class="text-muted"><IoShareSocial size={20} /></small>
@@ -71,7 +71,7 @@ const News = () => {
                                 <div class="card-body ">
                                     <p className="text-muted time mt-3">3 HOURS AGO</p>
                                     <p className="topic fw-bold my-2">CLASSIC ROYALS TRIAL</p>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to... </p>
+                                    <p class="card-text">Your Chance to Shine: Classic Royals Invite Talented Players for Open Trials...</p>
                                     <div class="d-flex share justify-content-between align-items-center">
                                         <p className="badge bg-primary">CRFA</p>
                                         <small class="text-muted"><IoShareSocial size={20} /></small>
@@ -89,7 +89,7 @@ const News = () => {
                                 <div class="card-body ">
                                     <p className="text-muted time mt-3">4 DAYS AGO</p>
                                     <p className="topic fw-bold my-2">CLASSIC ROYALS VS MARLINZ FC PRE SEASON MATCH</p>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to... </p>
+                                    <p class="card-text">Classic Royals host Marlinz ahead of the ISL</p>
                                     <div class="d-flex share justify-content-between align-items-center">
                                         <p className="badge bg-primary">PRE SEASON</p>
                                         <small class="text-muted"><IoShareSocial size={20} /></small>
@@ -107,7 +107,7 @@ const News = () => {
                                 <div class="card-body ">
                                     <p className="text-muted time mt-3">6 DAYS AGO</p>
                                     <p className="topic fw-bold my-2">CLASSIC ROYALS VS PANTHERS FC PRE SEASON MATCH</p>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to... </p>
+                                    <p class="card-text">Classic Royals host Panther ahead of the ISL </p>
                                     <div class="d-flex share justify-content-between align-items-center">
                                         <p className="badge bg-primary">PRE SEASON</p>
                                         <small class="text-muted"><IoShareSocial size={20} /></small>
@@ -125,7 +125,7 @@ const News = () => {
                                 <div class="card-body ">
                                     <p className="text-muted time mt-3">9 DAYS AGO</p>
                                     <p className="topic fw-bold my-2">CLASSIC ROYALS VS TOWN HALL FC PRE SEASON MATCH</p>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to... </p>
+                                    <p class="card-text">Classic Royals host Town Hall ahead of the ISL</p>
                                     <div class="d-flex share justify-content-between align-items-center">
                                         <p className="badge bg-primary">PRE SEASON</p>
                                         <small class="text-muted"><IoShareSocial size={20} /></small>
