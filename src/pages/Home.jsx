@@ -262,11 +262,11 @@ const Home = () => {
               <div>
                 <div className="card card-2 shadow">
                   <div className="player_image">
-                    <img src="../Images/lana22.png" alt="" />
+                    <img src="../Images/crfa_logo.png" className="no-img" alt="" />
                   </div>
                   <div className="player_name p-sm-3 p-2 mb-0">
                     <h6 className="fw-bold player_number">Asst. Coach</h6>
-                    <h6 className="fw-bold m-0 text-uppercase">Lana Caleb</h6>
+                    <h6 className="fw-bold m-0 text-uppercase">Daniel A.D</h6>
                   </div>
                 </div>
               </div>
