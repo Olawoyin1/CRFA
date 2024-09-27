@@ -2,17 +2,16 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import CRFAPlayers from "../Data/PlayerData";
 // import  from "../Data/PlayerData";
-import { Link } from "react-router-dom";
 
 const PlayerDetails = () => {
-  const { lastname } = useParams();
-  console.log(lastname);
-  const player = CRFAPlayers.find((item) => item.lastname === lastname);
+  const { id } = useParams();
+  // console.log(lastname);
+  const player = CRFAPlayers.find((item) => item.id === id);
   // console.log(player);
 
   const OP = CRFAPlayers.filter(
     (item) =>
-      item.position === player.position && item.lastname != player.lastname
+      item.position === player.position && item.lastname !== player.lastname
   );
 
   const show = OP.filter((item, index) => index < 4);

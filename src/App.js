@@ -62,7 +62,7 @@ const main = createBrowserRouter(
             />
           }
         />
-        <Route path=":lastname" element={<PlayerDetails />} />
+        <Route path=":id" element={<PlayerDetails />} />
       </Route>
     </Route>
   )

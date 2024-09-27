@@ -1,65 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import PlayerCard from "../Components/PlayerCard";
 
-import Goalkeeper from "./players/Goalkeeper";
-import Defenders from "./players/Defenders";
+// import { Link } from "react-router-dom";
 
-import Midfielders from "./players/Midfielders";
-import Forwards from "./players/Forwards";
 
 export default function Players({ gk, df, mf, fw }) {
-  const goalkeepers = gk.map((goalkeeper) => {
-    return (
-      <Goalkeeper
-        key={goalkeeper.id}
-        lastname={goalkeeper.lastname}
-        firstname={goalkeeper.firstname}
-        dob={goalkeeper.DOB}
-        number={goalkeeper.number}
-        img={goalkeeper.image}
-      />
-    );
-  });
 
-  const defenders = df.map((defender) => {
-    return (
-      <Defenders
-        key={defender.id}
-        lastname={defender.lastname}
-        firstname={defender.firstname}
-        dob={defender.DOB}
-        number={defender.number}
-        img={defender.image}
-      />
-    );
-  });
-
-  const midfielders = mf.map((midfielder) => {
-    return (
-      <Midfielders
-        key={midfielder.id}
-        lastname={midfielder.lastname}
-        firstname={midfielder.firstname}
-        dob={midfielder.DOB}
-        number={midfielder.number}
-        img={midfielder.image}
-      />
-    );
-  });
-
-  const forwards = fw.map((forward) => {
-    return (
-      <Forwards
-        key={forward.id}
-        id={forward.id}
-        lastname={forward.lastname}
-        firstname={forward.firstname}
-        dob={forward.DOB}
-        number={forward.number}
-        img={forward.image}
-      />
-    );
-  });
+ 
 
   return (
     <div className="players">
@@ -71,7 +18,13 @@ export default function Players({ gk, df, mf, fw }) {
           <hr className="mt-1" />
 
           <div className="row row-cols-2 row-cols-sm-3 g-3 row-cols-lg-4 ">
-            {goalkeepers}
+            {
+              gk.map(item=> {
+                return(
+                  <PlayerCard data={item} />
+                )
+              })
+            }
           </div>
         </div>
 
@@ -80,7 +33,13 @@ export default function Players({ gk, df, mf, fw }) {
           <hr className="mt-1" />
 
           <div className="row row-cols-2 row-cols-sm-3 g-3 row-cols-lg-4 ">
-            {defenders}
+          {
+              df.map(item=> {
+                return(
+                  <PlayerCard data={item} />
+                )
+              })
+            }
           </div>
         </div>
 
@@ -89,7 +48,13 @@ export default function Players({ gk, df, mf, fw }) {
           <hr className="mt-1" />
 
           <div className="row row-cols-2 row-cols-sm-3 g-3 row-cols-lg-4 ">
-            {midfielders}
+            {
+              mf.map(item=> {
+                return(
+                  <PlayerCard data={item} />
+                )
+              })
+            }
           </div>
         </div>
 
@@ -98,7 +63,13 @@ export default function Players({ gk, df, mf, fw }) {
           <hr className="mt-1" />
 
           <div className="row row-cols-2 row-cols-sm-3 g-3 row-cols-lg-4 ">
-            {forwards}
+            {
+              fw.map(item=> {
+                return(
+                  <PlayerCard data={item} />
+                )
+              })
+            }
           </div>
         </div>
       </div>
