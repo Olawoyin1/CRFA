@@ -13,11 +13,56 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards } from "swiper/modules";
 
 import Gallery from "../Data/Gallery";
+import { useEffect, useState } from "react";
+
+
+const bgImages = [
+  'url("/Images/heroo.jpg")',
+  'url("/Images/Gallery/cr1.jpeg")',
+  'url("/Images/Gallery/cr20.jpg")',
+  'url("/Images/Gallery/cr19.jpeg")',
+  'url("/Images/Gallery/cr15.jpeg")',
+  'url("/Images/Gallery/cr6.jpeg")',
+  'url("/Images/Gallery/cr17.jpeg")',
+  'url("/Images/Gallery/cr31.jpeg")',
+  'url("/Images/Gallery/cr14.jpeg")',
+  'url("/Images/Gallery/cr24.jpeg")',
+];
 
 const Home = () => {
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    // Set up an interval to change the background image every 5 seconds
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % bgImages.length);
+    }, 5000);
+
+    // Clean up the interval when the component unmounts
+    return () => clearInterval(interval);
+  }, []);
+
+
   return (
     <>
-      <div className="hero">
+      <div 
+        className="hero"
+        style={{
+          // height: '400px',
+          // width: '800px',
+          backgroundImage: bgImages[currentIndex],
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          color: 'white',
+          fontSize: '24px',
+          transition: 'background-image 1s ease-in-out',
+        }}
+      
+      >
         <div className="container">
           <div className="d-flex">
             <div className="hero-content">

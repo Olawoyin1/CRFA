@@ -455,7 +455,7 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   max-width: 100%;
-  background-image: url('/public/Images/heroo.jpg');
+  /* background-image: url('/public/Images/heroo.jpg'); */
   background-color: #494949 !important;
   background-position: center;
   background-blend-mode: multiply !important;
