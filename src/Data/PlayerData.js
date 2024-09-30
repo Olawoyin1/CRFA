@@ -8,7 +8,7 @@ const CRFAPlayers = [
     image: "",
     position: "goalkeeper",
     joined : "2022",
-    bio : "N/A"
+    bio : "Olajide Peace is the calm amidst the storm for the team, a goalkeeper whose composure and focus set him apart.Peace brings a sense of security to the defense, knowing that he’s always ready to make a crucial save. Off the field, he is thoughtful and diligent, always studying the game and finding ways to improve himself.\n\n On the field, Peace is a commanding presence in goal. His excellent positioning and shot-stopping ability make him a formidable last line of defense. He has a keen sense for reading the game, which allows him to make timely interceptions and crucial saves when it matters the most. His reflexes are lightning-fast, often pulling off seemingly impossible saves to keep his team in the game. Beyond his physical abilities, Peace is also an adept communicator—he constantly directs the defense, ensuring everyone is in the right place. His leadership and reliability between the sticks make him an invaluable asset to the team, inspiring confidence in every player on the pitch."
   },
   {
     id: '2',
@@ -19,7 +19,7 @@ const CRFAPlayers = [
     image: "",
     position: "goalkeeper",
     joined : "2023",
-    bio : "N/A"
+    bio : "Oyedele Temitayo is the heart and soul of the team's goalkeeping unit, known for his passionate approach to the game and his relentless work ethic. He’s a vocal leader, someone who doesn’t shy away from motivating his teammates, whether they’re in training or facing a tough opponent.\n\n On the field, Temitayo is a fearless goalkeeper, never hesitating to put his body on the line to make a save. His athleticism is remarkable—he moves across the goal effortlessly, diving to make crucial stops and displaying an incredible reaction speed that keeps attackers at bay. He’s also known for his bravery in one-on-one situations, rushing out to close down angles and deny strikers. Temitayo’s commanding presence and vocal encouragement are vital in keeping the defensive line organized, and his quick decision-making helps initiate counterattacks, turning defense into offense. His dedication to improving his game, coupled with his natural leadership, makes him a crucial figure on and off the pitch."
   },
   {
     id: '3',
@@ -31,7 +31,7 @@ const CRFAPlayers = [
     image_dp: "./Images/Players/adufe2.png",
     position: "goalkeeper",
     joined : "2020",
-    bio : "N/A"
+    bio : "Adufe Snow is the youngest of the goalkeeping squad but already shows maturity beyond his years. With a quiet confidence and a burning desire to keep improving, Snow is always the first to arrive at training and the last to leave. He is constantly working on his craft, whether it’s honing his distribution skills or practicing reflex saves. Off the field, \n\n On the field, Snow has proven himself to be a dependable goalkeeper with excellent reflexes and solid ball-handling skills. He reads the game well, allowing him to make crucial saves that belie his young age. He’s particularly strong in shot-stopping, with a natural instinct for diving in the right direction at the right time. Snow is also comfortable with the ball at his feet, capable of starting plays from the back with accurate passing. His potential is undeniable, and with every game, Snow gains more confidence and experience, steadily establishing himself as a reliable option for the team. His determination to succeed, combined with his willingness to learn, points towards a bright future between the posts."
   },
   {
     id: '4',
