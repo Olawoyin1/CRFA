@@ -42,7 +42,7 @@ const CRFAPlayers = [
     image: "./Images/Players/seun.png",
     position: "defender",
     joined : "2023",
-    bio : "N/A"
+    bio : "Amoa Oluwaseun is the kind of player whose presence brings calm to the defense. Quiet but fiercely determined, he has made the left-back position his own, using his strength and tactical intelligence to make his side of the pitch almost impenetrable.\n\n On the field, Oluwaseun is a rock in defense. He is known for his ability to read the game, often positioning himself perfectly to intercept dangerous passes or block crosses. His timing in tackles is impeccable, rarely giving away fouls and often turning defensive actions into opportunities for the team. Not only is he a defensive powerhouse, but Oluwaseun also contributes to the attack, using his pace to make overlapping runs and deliver crosses into the box. His reliability and consistency make him a crucial member of the backline, and his defensive stability provides a foundation that allows his teammates to play with more freedom."
   },
   {
     id: '99',
@@ -98,7 +98,7 @@ const CRFAPlayers = [
     image: "./Images/Players/pydoski.png",
     position: "defender",
     joined : "2020",
-    bio : "N/A"
+    bio : "OJediran Opeyemi, famously known as Pydosky, is the team’s spirited defender who brings a mix of grit and charisma to every game. He has a unique personality that instantly lights up the locker room, always the first to crack a joke or boost the morale of the team before a match. Pydowsky is deeply loved by his teammates for his humor, but they also know him as one of the hardest workers on the field. Off the field, he’s approachable and friendly, making everyone feel like part of the family, whether it's a new signing or a long-time teammate. \n\n On the field, Pydosky is a defender you don’t want to go up against. His physicality, combined with his smart positioning, makes him a formidable opponent for any attacker. He’s versatile, able to slot in across different defensive roles, and has a fearless approach when it comes to challenges. Pydosky’s love for defending shines through in his play—he celebrates a good tackle or an important clearance as passionately as a striker celebrates a goal. His leadership qualities are evident during games, always communicating with the backline and ensuring everyone is in the right position. Pydosky’s dedication to the craft of defending makes him a vital component of the team’s defensive strength."
   },
   {
     id: '10',
@@ -108,7 +108,8 @@ const CRFAPlayers = [
     DOB: "29-03-2001",
     image: "",
     position: "defender",
-    joined : "2023"
+    joined : "2023",
+    bio: "Fasesin David is the kind of center-back who exudes confidence and inspires it in those around him. With his commanding presence and natural leadership, David is often looked to by teammates when the game gets tough. His journey to becoming a key player for the team has been marked by dedication and perseverance, and off the pitch, he is admired for his humility and willingness to work hard without seeking the spotlight. \n\n On the field, David is a defender who thrives on shutting down opposing strikers. He’s known for his aerial dominance and his no-nonsense tackling style, qualities that have earned him a reputation as a formidable opponent in the league. His game intelligence allows him to anticipate danger before it develops, often making crucial interceptions and clearances that keep the team in the game. While David is always ready for a physical battle, he also has a composed side to his game, able to bring the ball out of defense and start the play from the back. His all-around abilities make him an indispensable leader at the heart of the defense, capable of keeping even the most dangerous attackers at bay."
   },
   {
     id: '11',
@@ -163,7 +164,7 @@ const CRFAPlayers = [
     image: "./Images/Players/sk.png",
     position: "midfielder",
     joined : "2021",
-    bio : "N/A"
+    bio : "Adekanmi Gbolaahan, affectionately known by fans and teammates as “SK” is the engine that keeps the team's midfield running smoothly. His dedication and passion for the game are evident from the first whistle to the last. SK is known for his relentless work rate, always chasing every loose ball and never shying away from a challenge. His humility and willingness to support his teammates make him one of the most respected figureS.\n\n On the field, SK is the player you want when things get tough. He combines physical strength with technical skill, making him equally adept at breaking up the opposition’s play as he is at launching a quick counterattack. His vision and passing accuracy allow him to dictate the tempo of the game, linking the defense with the attack seamlessly. SK’s commitment to every aspect of his role makes him indispensable, and his ability to read the game often turns what could be dangerous situations into opportunities for his team. Fans love him not only for his tireless performances but also for his clutch moments, where he often steps up with crucial tackles or key passes that turn the tide in favor of the team."
   },
   {
     id: '16',
@@ -203,12 +204,12 @@ const CRFAPlayers = [
     lastname: "Lana",
     firstname: "Caleb",
     number: 20,
-    DOB: "12-07-2001",
+    DOB: "12-07-2002",
     image: "./Images/Players/lana22.png",
     image_dp: "./Images/Players/lana2.png",
     position: "forward",
     joined : "2020",
-    bio: "CARLESSI... The name alone scare the opposition team... Caleb lives for the moments that matter most.popularly Known as “Carlessi” for his lethal finishing, Peter has the ability to change a game in an instant. He’s the type of player who only needs one chance to score, and his calmness in front of goal is remarkable. Growing up, Peter was obsessed with watching tapes of his favorite strikers, studying their movements and mimicking their finishes. Now, he’s become that striker kids look up to. Off the field, Peter is a quiet soul, not one to seek the spotlight, but he lets his goals do the talking.  \n\n On the field, Caleb movements are calculated. He always seems to be one step ahead of the defenders, finding space where none seems to exist, ghosting into the box at just the right time. It’s this instinct that makes him so dangerous—he knows where to be, when to be there, and, most importantly, what to do when he gets there. His teammates trust him implicitly; when Caleb is in front of goal, there’s a sense of inevitability that the ball will find its way into the net."
+    bio: "CARLESSI... The name alone scare the opposition team... Caleb lives for the moments that matter most. Popularly Known as “Carlessi” for his lethal finishing, Caleb has the ability to change a game in an instant. He’s the type of player who only needs one chance to score, and his calmness in front of goal is remarkable. Growing up, Caleb was obsessed with watching tapes of his favorite strikers, studying their movements and mimicking their finishes. Now, he’s become that striker others look up to. Off the field, Caleb is a quiet soul, not one to seek the spotlight, but he lets his goals do the talking.  \n\n On the field, Caleb movements are calculated. He always seems to be one step ahead of the defenders, finding space where none seems to exist, ghosting into the box at just the right time. It’s this instinct that makes him so dangerous—he knows where to be, when to be there, and, most importantly, what to do when he gets there. His teammates trust him implicitly; when Caleb is in front of goal, there’s a sense of inevitability that the ball will find its way into the net."
   },
   {
     id: '20',
@@ -232,18 +233,18 @@ const CRFAPlayers = [
     // image_dp: "./Images/Players/taiwo.png",
     position: "forward",
     joined: "2020",
-    bio : "N/A"
+    bio : "Adeniji Taiwo is the team’s explosive left winger, a player whose energy and enthusiasm are evident from the moment he steps onto the field. Taiwo is not just about speed—his incredible work ethic and hunger to succeed make him a constant threat throughout the game. Off the pitch, Taiwo is known for his warmth and positive outlook, traits that make him a favorite among his teammates. He loves connecting with fans, especially the younger ones, and frequently spends time signing autographs and sharing his football journey to inspire others.\n\n On the field, Taiwo is the definition of a winger who loves to take risks. His dribbling skills, combined with his agility, make him a nightmare for fullbacks, as he can easily shift direction to leave defenders flat-footed. He has a knack for delivering dangerous crosses into the box, creating opportunities for the strikers, but he’s just as capable of cutting inside and letting loose a powerful shot. Taiwo’s desire to improve means he’s constantly working on new ways to challenge defenders and add to his repertoire of moves. His fearless approach, coupled with his raw talent, ensures that every time he’s on the ball, the crowd is on their feet, expecting something special to happen."
   },
   {
     id: '22',
     lastname: "Adeniji",
     firstname: "Paul",
     number: 17,
-    DOB: "Unknown",
+    DOB: "12-03-2003",
     image: "",
     position: "forward",
     joined : "2023",
-    bio : "N/A"
+    bio : "Adenini Paul is a winger with a heart as big as his talent, known for his generosity on and off the pitch. Paul is passionate about community work and spends much of his free time mentoring young players, giving them the encouragement and guidance they need to pursue their dreams. His teammates describe him as a selfless player, someone who always puts the team’s success before his own, and this attitude has made him a beloved figure in the squad.\n\n On the field, Paul is a creative force on the right wing, capable of turning a game on its head with his quick thinking and skillful play. He’s an excellent dribbler, able to weave through defenders with ease, and his vision allows him to pick out key passes that open up scoring opportunities for his teammates. Paul thrives in high-pressure moments, often stepping up to deliver when it matters most, whether it’s a perfect assist or a well-timed goal. His unpredictable style keeps defenders guessing, and his ability to read the game means he’s always in the right place to make something happen. Paul’s playmaking abilities make him an integral part of the attacking line, constantly pushing the team forward and creating opportunities that make the difference."
   },
   {
     id: '23',
@@ -261,12 +262,12 @@ const CRFAPlayers = [
     lastname: "Adeniji",
     firstname: "Kenny",
     number: 15,
-    DOB: "Unknown",
+    DOB: "11-07-2001",
     image: "./Images/Players/kenny2.png",
     image_dp: "./Images/Players/kenny2.png",
     position: "forward",
     joined : "2020",
-    bio : "N/A"
+    bio : "Adeniji Kenny, Taiwo's twin brother, brings his own unique style to the team as a right-wing forward. Where Taiwo is all about raw speed, Kenny is known for his finesse and precision. Off the pitch, Kenny is more reserved compared to his twin, often focused on fine-tuning his skills or studying his performances to see where he can improve. Despite his quieter nature, he has a fierce competitive drive, and the bond between the two brothers is one of mutual respect and friendly rivalry that helps them push beyond their limits.\n\n On the field, Kenny is the kind of player who makes the extraordinary look effortless. His technical skills are remarkable—he can deliver a cross with pinpoint accuracy or cut inside and unleash a curling shot that leaves the goalkeeper with no chance. Kenny is also an intelligent player who understands the nuances of positioning and timing, always knowing where to be to make the most of an opportunity. His combination of skill and tactical awareness makes him a constant threat down the right flank, and his contributions often prove decisive in big games. Whether he's scoring goals himself or setting up his teammates, Kenny's impact is always felt."
   },
 ];
 
