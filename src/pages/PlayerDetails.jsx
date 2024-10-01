@@ -59,19 +59,19 @@ const PlayerDetails = () => {
               <div>
                 <small class="text-muted">Date of Birth</small>
                 <h4 class="fw-bold ans">{player.DOB}</h4>
-                <hr class="mt-1" width="300px" />
+                <hr class="mt-1" />
               </div>
 
               <div>
                 <small class="text-muted">Position</small>
                 <h4 class="fw-bold ans">{player.position}</h4>
-                <hr class="mt-1" width="300px" />
+                <hr class="mt-1"  />
               </div>
 
               <div>
                 <small class="text-muted">Joined Classic</small>
                 <h4 class="fw-bold ans">{player.joined}</h4>
-                <hr class="mt-1" width="300px" />
+                <hr class="mt-1"  />
               </div>
 
               <div>
