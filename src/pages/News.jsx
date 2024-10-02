@@ -79,7 +79,7 @@ const News = () => {
                   </div>
 
                   <div class="card-body ">
-                    <p className="text-muted time mt-3">1 HOURS AGO</p>
+                    <p className="text-muted time mt-3">30 DAYS AGO</p>
                     <p className="topic fw-bold my-2">
                       ISCO SPORT LEAGUE SQUAD LIST
                     </p>
@@ -104,7 +104,7 @@ const News = () => {
                   </div>
 
                   <div class="card-body ">
-                    <p className="text-muted time mt-3">3 HOURS AGO</p>
+                    <p className="text-muted time mt-3">30 DAYS AGO</p>
                     <p className="topic fw-bold my-2">CLASSIC ROYALS TRIAL</p>
                     <p class="card-text">
                       Your Chance to Shine: Classic Royals Invite Talented
@@ -127,7 +127,7 @@ const News = () => {
                   </div>
 
                   <div class="card-body ">
-                    <p className="text-muted time mt-3">4 DAYS AGO</p>
+                    <p className="text-muted time mt-3">28 DAYS AGO</p>
                     <p className="topic fw-bold my-2">
                       CLASSIC ROYALS VS MARLINZ FC PRE SEASON MATCH
                     </p>
@@ -151,7 +151,7 @@ const News = () => {
                   </div>
 
                   <div class="card-body ">
-                    <p className="text-muted time mt-3">6 DAYS AGO</p>
+                    <p className="text-muted time mt-3">26 DAYS AGO</p>
                     <p className="topic fw-bold my-2">
                       CLASSIC ROYALS VS PANTHERS FC PRE SEASON MATCH
                     </p>
@@ -175,7 +175,7 @@ const News = () => {
                   </div>
 
                   <div class="card-body ">
-                    <p className="text-muted time mt-3">9 DAYS AGO</p>
+                    <p className="text-muted time mt-3">29 DAYS AGO</p>
                     <p className="topic fw-bold my-2">
                       CLASSIC ROYALS VS TOWN HALL FC PRE SEASON MATCH
                     </p>

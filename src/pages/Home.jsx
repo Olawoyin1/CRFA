@@ -98,7 +98,7 @@ const Home = () => {
                                 </div>
 
                                 <div class="card-body ">
-                                    <p className="text-muted time mt-3">1 HOURS AGO</p>
+                                    <p className="text-muted time mt-3">30 DAYS AGO</p>
                                     <p className="topic fw-bold my-2">ISL MATCHWEEK ONE</p>
                                     <p class="card-text">The Isco Sport League (ISL) kicked off its much-anticipated season with Matchweek One, showcasing exhilarating performances... </p>
                                     <div class="d-flex share justify-content-between align-items-center">
@@ -116,7 +116,7 @@ const Home = () => {
                                 </div>
 
                                 <div class="card-body ">
-                                    <p className="text-muted time mt-3">1 HOURS AGO</p>
+                                    <p className="text-muted time mt-3">30 DAYS AGO</p>
                                     <p className="topic fw-bold my-2">ISCO SPORT LEAGUE SQUAD LIST</p>
                                     <p class="card-text">Classic Royals FA players representing the team in the ISL LEAGUE... </p>
                                     <div class="d-flex share justify-content-between align-items-center">
@@ -134,7 +134,7 @@ const Home = () => {
                                 </div>
 
                                 <div class="card-body ">
-                                    <p className="text-muted time mt-3">3 HOURS AGO</p>
+                                    <p className="text-muted time mt-3">30 DAYS AGO</p>
                                     <p className="topic fw-bold my-2">CLASSIC ROYALS TRIAL</p>
                                     <p class="card-text">Your Chance to Shine: Classic Royals Invite Talented Players for Open Trials... </p>
                                     <div class="d-flex share justify-content-between align-items-center">
