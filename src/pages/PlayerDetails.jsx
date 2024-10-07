@@ -23,9 +23,9 @@ const PlayerDetails = () => {
         <div className="d-flex flex-wrap main_dp align-items-center mx-auto">
           <div className="player_photo">
             {player.image_dp ? (
-              <img src={`../${player.image_dp}`} alt="" />
+              <img src={`../${player.image_dp}`} laoding='lazy' alt="" />
             ) : (
-              <img src="../../Images/crfa_logo.png" alt="" />
+              <img src="../../Images/crfa_logo.png" laoding='lazy' alt="" />
             )}
           </div>
           <div className="p_name">

@@ -256,7 +256,7 @@ const Home = () => {
             {Gallery.map((item) => {
               return (
                 <SwiperSlide>
-                  <img className="slider-img" src={`../${item}`} alt="" />
+                  <img className="slider-img" loading="lazy" src={`../${item}`} alt="" />
                 </SwiperSlide>
               );
             })}
